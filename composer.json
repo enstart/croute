@@ -1,0 +1,23 @@
+{
+    "name": "enstart/croute",
+    "description": "Create routes using annotations in your controllers doc blocks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Eriksson",
+            "email": "mange@reloop.se"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "spatie/array-to-xml": "^2.7"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Enstart\\Ext\\Croute\\": "src/"
+        }
+    }
+}
